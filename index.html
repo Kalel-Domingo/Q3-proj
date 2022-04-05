@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluePong</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nanum+Pen+Script&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Game</a>
+        <a href="guidelines.html">Guidelines</a>
+        <a href="about.html">About the Developers</a>
+    </div>
+    <canvas id="canvas" style="display:none"></canvas>
+    <div id="start" style="display:none">
+        <h1>Blue Pong</h1>
+        <a href="#" onclick="startGame()">Start Game</a>
+    </div>
+    <div id="game-over" style="display:none">
+        <h1>Game Over</h1>
+        <a href="#" onclick="startGame()">Try Again?</a>
+    </div>
+</body>
+
+</html>
