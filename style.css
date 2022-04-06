@@ -1,11 +1,26 @@
 body {
     color: #ffffff;
-    background-color:#1bafdb;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(92,92,92,1) 100%);
+    background-attachment: fixed;
+}
+
+p {
+  font-size: large;
+  font-family: 'Architects Daughter';
+  text-align: left;
+  padding-left: 40px;
+}
+
+.tag{
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Architects Daughter';
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #4c5391;
+    background-color: #5c5c5c;
   }
   
   .topnav a {
@@ -16,15 +31,16 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-family: 'Oswald';
+    border-radius: 5px;
   }
   
   .topnav a:hover {
-    background-color: rgb(134, 137, 220);
+    background-color: rgb(169, 169, 169);
     color: black;
   }
   
   .topnav a.active {
-    background-color: #0425aa;
+    background-color: #8b8b8c;
     color: white;
   }
   .topnav .center {
@@ -32,9 +48,9 @@ body {
   }
 
 .container {
-    background-color: #555fe8;
+    background-color: #424242;
     margin: auto;
-    width: fit-content;
+    width: 1500px;
     border-radius: 25px;
 }
 h1 {
@@ -75,5 +91,5 @@ li {
     display: inline-block;
 }
 
-#start a:hover, #game-over a:hover { background-color: #ffffff; color: #1bafdb; }
+#start a:hover, #game-over a:hover { background-color: #ffffff; color: rgb(117, 117, 117); }
 
