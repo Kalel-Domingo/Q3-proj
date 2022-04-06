@@ -105,7 +105,7 @@ class Fx {
         this.context.moveTo(p1x, p1y);
         this.context.lineTo(p2x, p2y);
         this.context.stroke();
-    }
+    }/**Hi! */
 
     createTwoColorGradient(color1, color2, p1x, p1y, p2x, p2y) {
         let gradient = this.context.createLinearGradient(p1x, p1y, p2x, p2y);
