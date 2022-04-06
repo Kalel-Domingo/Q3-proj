@@ -7,11 +7,11 @@ let ball;
 let highscore = 5;
 let resourcesToLoad = 0;
 let resources = [
-    { id: "player-1", var: window.document.createElement("audio"), file: "assets/player-1.mp3" },
-    { id: "player-2", var: window.document.createElement("audio"), file: "assets/player-2.mp3" },
-    { id: "rebound", var: window.document.createElement("audio"), file: "assets/rebound.mp3" },
-    { id: "score", var: window.document.createElement("audio"), file: "assets/score.mp3" },
- ];
+    { id: "player-1", var: window.document.createElement("audio"), file: "sound/player-1.mp3" },
+    { id: "player-2", var: window.document.createElement("audio"), file: "sound/player-2.mp3" },
+    { id: "rebound", var: window.document.createElement("audio"), file: "sound/rebound.mp3" },
+    { id: "score", var: window.document.createElement("audio"), file: "sound/score.mp3" },
+ ];/**idk how to put sound, why is this not working???*/
 
 window.onload = function() {
     console.log('pong onload');
@@ -47,7 +47,7 @@ function init() {
 
 function draw() {
     let gradient = graphics.createTwoColorGradient(
-        "#4c5c96","#1bafdb",0,0,0,graphics.height() * 0.66);
+        "#5c5c5c","#000000",0,0,0,graphics.height() * 0.66);
 
     graphics.fillCanvas(gradient);
     graphics.stroke(graphics.width()/2,0,
